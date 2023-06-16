@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
+
+/* Reset styles */
+body, h1, h2, h3, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Montserrat', Arial, sans-serif;
+  background-color: #222;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #111;
+  padding: 20px;
+  text-align: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.logo img {
+  height: 50px;
+  margin-right: 10px;
+}
+
+h1 {
+  color: #ff9900;
+  margin: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+  padding: 5px;
+  transition: color 0.3s ease-in-out;
+}
+
+nav a:hover {
+  color: #ff9900;
+}
+
+.newspaper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 40px;
+  padding: 20px;
+}
+
+section {
+  padding: 20px;
+  background-color: #111;
+  border-radius: 8px;
+}
+
+h2 {
+  font-size: 24px;
+  color: #ff9900;
+}
+
+ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.project {
+  margin-bottom: 40px;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  color: #ff9900;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #ffbb33;
+}
+
+footer {
+  padding: 20px;
+  background-color: #111;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.social-media {
+  display: flex;
+  align-items: center;
+}
+
+.social-media a {
+  display: inline-block;
+  width: 24px;
+  height: 45px;
+  margin: 0 25px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.social-media a.linkedin {
+  background-image: url('linkedin-icon.png');
+}
+
+.social-media a.github {
+  background-image: url('github-icon.png');
+}
+
+.blog-section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 40px;
+}
+
+.blog-post {
+  padding: 20px;
+  background-color: #111;
+  border-radius: 8px;
+}
+
+.blog-post h3 {
+  font-size: 20px;
+  color: #ff9900;
+}
+
+.blog-post p {
+  margin-bottom: 20px;
+}
+
+.blog-post a {
+  color: #ff9900;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+.blog-post a:hover {
+  color: #ffbb33;
+}
